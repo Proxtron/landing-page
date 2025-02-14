@@ -1,5 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
+    margin: 0;
 }
 
 h1 {
@@ -19,4 +20,66 @@ h3 {
 
 p {
     font-size: 18px;
+}
+
+.header {
+    background-color: #1F2937;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 65px;
+    gap:25px;
+}
+
+.header > div {
+    width:70%;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    margin:0 auto 0 0;
+}
+
+.header-secondary {
+    color: #e5e7eb;
+}
+
+.nav-bar {
+    display:flex;
+    align-items: center;
+    gap:15px;
+}
+
+.main-message {
+    margin: 25px 0;
+    display: flex;
+    gap:20px;
+}
+
+.img-placeholder {
+    background-color: #77787a;
+    padding:12px;
+    width: 900px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E5E7EB;
+}
+
+.greeting-message {
+    flex-shrink: 1;
+}
+
+.greeting-message > h1 {
+    color:#F9FAF8;
+}
+
+button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding:10px 25px;
+    border: 0px;
+    border-radius: 5px;
+    font-weight: 700;
 }
