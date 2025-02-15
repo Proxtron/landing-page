@@ -120,3 +120,24 @@ button {
     color:#77787a;
     font-size: 16px;
 }
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 75px 0;
+}
+
+.quote-container {
+    width:800px; 
+    margin: 0 auto;
+}
+
+.quote {
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+}
