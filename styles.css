@@ -141,3 +141,36 @@ button {
     font-weight: bold;
     font-size: 24px;
 }
+
+.call-to-action-section {
+    padding:75px 0;
+}
+
+.call-to-action-container {
+    background-color: #3882f6;
+    width: 900px;
+    margin: 0 auto;
+    border-radius: 10px;
+    display:flex;
+    padding: 50px 25px 50px 75px;
+}
+
+.call-to-action-header {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.call-to-action-caption {
+    margin: 0;
+    font-size: 16px;
+    color: #e5e7eb;
+}
+.call-to-action-btn {
+    border: #F9FAF8 2px solid;
+}
+
+.call-to-action-btn-container {
+    margin: 0 auto;
+}
